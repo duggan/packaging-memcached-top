@@ -1,0 +1,13 @@
+Source: memcached-top
+Section: web
+Priority: optional
+Maintainer: Ross Duggan <ross.duggan@acm.org>
+Build-Depends: debhelper (>= 7), po-debconf
+Standards-Version: 3.9.4
+
+Package: memcached-top
+Depends: perl
+Architecture: any
+Description: Perl command-line memcached stat reporter, top-like output
+ See https://code.google.com/p/memcache-top/ for more information
+ and documentation.
