@@ -4,10 +4,7 @@
 # A helper script for updates
 
 VERSION=0.7
-REVISION=0
-
-changelog=debian/changelog
-tempfile=$(mktemp -t debcontrol)
+REVISION=1
 
 rfc2822_date="$(date +"%a, %d %b %Y %T %z")"
 series=precise
@@ -18,7 +15,7 @@ echo "memcached-top (${VERSION}-${REVISION}+${series}1) $series; urgency=low
   * Upstream release ${VERSION}.
 
  -- Ross Duggan <ross.duggan@acm.org>  $rfc2822_date
-" > $changelog
+" > changelog
 
 git add *
 git commit -am "Release upstream $VERSION, packaging revision $REVISION" && \
