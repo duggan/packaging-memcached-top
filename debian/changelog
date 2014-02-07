@@ -1,6 +1,6 @@
-memcached-top (0.7-1+precise1) precise; urgency=low
+memcached-top (0.7-3+precise1) precise; urgency=low
 
   * Upstream release 0.7.
 
- -- Ross Duggan <ross.duggan@acm.org>  Thu, 06 Feb 2014 10:57:23 +0000
+ -- Ross Duggan <ross.duggan@acm.org>  Fri, 07 Feb 2014 13:30:41 +0000
 

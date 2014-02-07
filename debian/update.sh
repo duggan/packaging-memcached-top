@@ -4,7 +4,7 @@
 # A helper script for updates
 
 VERSION=0.7
-REVISION=1
+REVISION=3
 
 rfc2822_date="$(date +"%a, %d %b %Y %T %z")"
 series=precise
